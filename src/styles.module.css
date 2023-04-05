@@ -1,0 +1,80 @@
+.mainWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.boxWrapper {
+  width: 500px;
+}
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.avatarWrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.9em;
+  align-items: center;
+}
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.icon {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.iconSmall {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.iconDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+}
+.iconWrapper {
+  display: flex;
+  font-size: 0.7em;
+}
+.links {
+  text-decoration: none;
+}
+.dateWrapper {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.7em;
+  width: 230px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.fileContainer {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+.fileLink {
+  font-size: 0.7em;
+}
+.fileWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fileDiv {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.separator {
+  height: 1px;
+  width: 100%;
+  background: #ededed;
+}
